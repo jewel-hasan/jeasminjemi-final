@@ -1,0 +1,60 @@
+
+
+
+
+#menu-style {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right, yellow, yellow 50%, white 50%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+    /* Same as before */
+    transition: background-position 375ms ease;
+  }
+  #menu-style:hover {
+    background-position: 0 100%;
+  }
+ 
+  #menu-style:active{
+    background-color: red;
+  }
+
+
+
+
+
+
+  
+  #center {
+      
+    margin: 0 auto;
+    
+  }
+
+
+  .animate-gradient {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 5s ease infinite alternate;
+    -moz-animation: animatedgradient 5s ease infinite alternate;
+    animation: animatedgradient 5s ease infinite alternate;
+  }
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
