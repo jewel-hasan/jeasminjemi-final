@@ -15,27 +15,21 @@
     /* Same as before */
     transition: background-position 375ms ease;
   }
-  .menu-style:hover {
+
+.menu-style:hover {
     background-position: 0 100%;
-   
-  }
-
-
-.menu-active{
-  
-  color: yellow;
 }
 
+.menu-active{
+    color: yellow;
+}
 
   
-  #center {
-      
-    margin: 0 auto;
-    
-  }
+#center {
+margin: 0 auto;    
+}
 
-
-  .animate-gradient {
+.animate-gradient {
     background-size: 300%;
     -webkit-animation: animatedgradient 5s ease infinite alternate;
     -moz-animation: animatedgradient 5s ease infinite alternate;
