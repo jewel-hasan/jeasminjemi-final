@@ -1,13 +1,9 @@
 
-
-
-
-#menu-style {
+.menu-style  {
     position: relative;
     display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
-    font-weight: bold;
+    font-weight: 900;
+    font-weight: bolder;
     color: white;
     overflow: hidden;
     background: linear-gradient(to right, yellow, yellow 50%, white 50%);
@@ -19,17 +15,16 @@
     /* Same as before */
     transition: background-position 375ms ease;
   }
-  #menu-style:hover {
+  .menu-style:hover {
     background-position: 0 100%;
-  }
- 
-  #menu-style:active{
-    background-color: red;
+   
   }
 
 
-
-
+.menu-active{
+  
+  color: yellow;
+}
 
 
   
