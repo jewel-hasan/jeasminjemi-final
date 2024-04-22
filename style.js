@@ -6,10 +6,13 @@ const menuLinks = document.querySelectorAll('li a');
 for (const link of menuLinks){
     if(link.href.includes(`${activePage}`)){
         console.log(`${activePage}`)
-
-        link.classList.remove('menu-style');
-        link.classList.toggle('menu-active');
+        link.classList.replace("menu-style","menu-active")
+        
+        // link.classList.remove('menu-style');
+        // link.classList.toggle('menu-active');
       
     }
-
+else{
+    link.classList.add('menu-active')
+}
 }
