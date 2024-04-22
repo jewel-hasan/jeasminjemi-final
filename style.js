@@ -12,7 +12,6 @@ for (const link of menuLinks){
         // link.classList.toggle('menu-active');
       
     }
-else{
-    link.classList.add('menu-active')
-}
+
+
 }
